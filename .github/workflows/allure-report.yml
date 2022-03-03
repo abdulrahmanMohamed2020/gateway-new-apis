@@ -73,7 +73,7 @@ jobs:
           context: 'Test report'
           state: 'success'
           sha: ${{github.event.pull_request.head.sha || github.sha}}
-          target_url: https://github.com/abdulrahmanMohamed2020/gateway-new-apis/${{ github.run_number }}
+          target_url: https://abdulrahmanmohamed2020.github.io/gateway-new-apis/${{ github.run_number }}
   
       - name: Send custom JSON data to Slack workflow
         id: slack
@@ -88,7 +88,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "GitHub Action build result: ${{ job.status }}\nAllure Report URL:\n https://github.com/abdulrahmanMohamed2020/gateway-new-apis/${{ github.run_number }}"
+                    "text": "GitHub Action build result: ${{ job.status }}\nAllure Report URL:\n https://abdulrahmanmohamed2020.github.io/gateway-new-apis/${{ github.run_number }}"
                   }
                 }
               ]
