@@ -1,0 +1,96 @@
+{
+  "uid" : "96823d8015603c7a",
+  "name" : "verifySchemaOfResponseWhenCreatingValidUser",
+  "fullName" : "tests.users.UsersTest.verifySchemaOfResponseWhenCreatingValidUser",
+  "historyId" : "2d44f30ff013631f8e3b500eb5e9b94d",
+  "time" : {
+    "start" : 1646333599376,
+    "stop" : 1646333600169,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a5ebc40149f3ff26",
+      "name" : "Request",
+      "source" : "a5ebc40149f3ff26.html",
+      "type" : "text/html",
+      "size" : 1027
+    }, {
+      "uid" : "656bb7ee2d3f38f",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "656bb7ee2d3f38f.html",
+      "type" : "text/html",
+      "size" : 2049
+    }, {
+      "uid" : "5e945abc47149ad",
+      "name" : "Request",
+      "source" : "5e945abc47149ad.html",
+      "type" : "text/html",
+      "size" : 1319
+    }, {
+      "uid" : "182135d3efb51f4c",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "182135d3efb51f4c.html",
+      "type" : "text/html",
+      "size" : 429
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySchemaOfResponseWhenCreatingValidUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-339"
+  }, {
+    "name" : "thread",
+    "value" : "2175@fv-az47-339.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96823d8015603c7a.json",
+  "parameterValues" : [ ]
+}
