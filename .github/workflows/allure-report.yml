@@ -88,11 +88,11 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "GitHub Action build result: ${{ job.status }}\nAllure Report URL:\n https://abdulrahmanmohamed2020.github.io/gateway-new-apis/${{ github.run_number }}"
+                    "text": "GitHub Action build result: ${{ job.status }}\nTesting Result Report URL:\n https://abdulrahmanmohamed2020.github.io/gateway-new-apis/${{ github.run_number }}"
                   }
                 }
               ]
             }
         env:
-          SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
+          SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
           SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
