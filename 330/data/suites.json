@@ -1,0 +1,125 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "tests.users.UsersTest",
+        "children" : [ {
+          "name" : "verifyDeleteUserResponseStatusCode",
+          "uid" : "9150da7c3a437fa9",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "failed",
+          "time" : {
+            "start" : 1646955548287,
+            "stop" : 1646955556566,
+            "duration" : 8279
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyLoginResponseSchema",
+          "uid" : "87f5feb24781e19b",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646955556655,
+            "stop" : 1646955559375,
+            "duration" : 2720
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySchemaOfResponseWhenCreatingValidUser",
+          "uid" : "4ef756e9ee843f32",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646955559378,
+            "stop" : 1646955560329,
+            "duration" : 951
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySchemaOfResponseWhenGettingUser",
+          "uid" : "1734a95c80671751",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646955560331,
+            "stop" : 1646955562699,
+            "duration" : 2368
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySchemaOfResponseWhenUpdatingUser",
+          "uid" : "d49b5892f08f167a",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646955562707,
+            "stop" : 1646955565272,
+            "duration" : 2565
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenICreateUser",
+          "uid" : "10d7d9de6626f83b",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646955565277,
+            "stop" : 1646955566139,
+            "duration" : 862
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenIGetUser",
+          "uid" : "6664de275072da25",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646955566149,
+            "stop" : 1646955567323,
+            "duration" : 1174
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "73ce7fc73688fc36f7b4c83198dfe5ef"
+      }, {
+        "name" : "tests.contacts.ContactsTest",
+        "children" : [ {
+          "name" : "testTest",
+          "uid" : "242cd199e97c4e0",
+          "parentUid" : "a296e5fcea1378f7e29d1b541140121b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646955567431,
+            "stop" : 1646955567432,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a296e5fcea1378f7e29d1b541140121b"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  } ],
+  "name" : "suites"
+}
