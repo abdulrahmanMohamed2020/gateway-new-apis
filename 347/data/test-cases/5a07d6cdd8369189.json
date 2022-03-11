@@ -1,0 +1,315 @@
+{
+  "uid" : "5a07d6cdd8369189",
+  "name" : "verifyDeleteUserResponseStatusCode",
+  "fullName" : "tests.users.UsersTest.verifyDeleteUserResponseStatusCode",
+  "historyId" : "814759883b1de6f05cdafaf4029b94c1",
+  "time" : {
+    "start" : 1646991572865,
+    "stop" : 1646991576558,
+    "duration" : 3693
+  },
+  "status" : "failed",
+  "statusMessage" : "The status code should be 200 expected [200] but found [404]",
+  "statusTrace" : "java.lang.AssertionError: The status code should be 200 expected [200] but found [404]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:907)\n\tat tests.users.UsersTest.verifyDeleteUserResponseStatusCode(UsersTest.java:98)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:764)\n\tat org.testng.TestRunner.run(TestRunner.java:585)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1140)\n\tat org.testng.TestNG.runSuites(TestNG.java:1069)\n\tat org.testng.TestNG.run(TestNG.java:1037)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The status code should be 200 expected [200] but found [404]",
+    "statusTrace" : "java.lang.AssertionError: The status code should be 200 expected [200] but found [404]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:907)\n\tat tests.users.UsersTest.verifyDeleteUserResponseStatusCode(UsersTest.java:98)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:764)\n\tat org.testng.TestRunner.run(TestRunner.java:585)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1140)\n\tat org.testng.TestNG.runSuites(TestNG.java:1069)\n\tat org.testng.TestNG.run(TestNG.java:1037)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dffa3b43e80ad7ef",
+      "name" : "Request",
+      "source" : "dffa3b43e80ad7ef.html",
+      "type" : "text/html",
+      "size" : 1027
+    }, {
+      "uid" : "663a94b4b83bf99",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "663a94b4b83bf99.html",
+      "type" : "text/html",
+      "size" : 3120
+    }, {
+      "uid" : "7009d653d3fc560a",
+      "name" : "Request",
+      "source" : "7009d653d3fc560a.html",
+      "type" : "text/html",
+      "size" : 1319
+    }, {
+      "uid" : "1e27430ad7adc7ed",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "1e27430ad7adc7ed.html",
+      "type" : "text/html",
+      "size" : 429
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyDeleteUserResponseStatusCode"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-713"
+  }, {
+    "name" : "thread",
+    "value" : "2368@fv-az135-713.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 350,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 350
+      },
+      "items" : [ {
+        "uid" : "11670e0f4d57fc8",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/346//#testresult/11670e0f4d57fc8",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646990258544,
+          "stop" : 1646990261492,
+          "duration" : 2948
+        }
+      }, {
+        "uid" : "64419af97782695e",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/345//#testresult/64419af97782695e",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646988141493,
+          "stop" : 1646988144371,
+          "duration" : 2878
+        }
+      }, {
+        "uid" : "593ff0352f862dbc",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/344//#testresult/593ff0352f862dbc",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646986888057,
+          "stop" : 1646986891756,
+          "duration" : 3699
+        }
+      }, {
+        "uid" : "20321a3c9417e5b3",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/343//#testresult/20321a3c9417e5b3",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646984210527,
+          "stop" : 1646984213920,
+          "duration" : 3393
+        }
+      }, {
+        "uid" : "97bd23dd32f3c8bf",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/342//#testresult/97bd23dd32f3c8bf",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646983010868,
+          "stop" : 1646983014870,
+          "duration" : 4002
+        }
+      }, {
+        "uid" : "73b7f931348a28a4",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/341//#testresult/73b7f931348a28a4",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646981178710,
+          "stop" : 1646981181942,
+          "duration" : 3232
+        }
+      }, {
+        "uid" : "678597ce2a5a8e56",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/340//#testresult/678597ce2a5a8e56",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646979733446,
+          "stop" : 1646979738426,
+          "duration" : 4980
+        }
+      }, {
+        "uid" : "fc679ddb99df6e4c",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/339//#testresult/fc679ddb99df6e4c",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646977010525,
+          "stop" : 1646977017687,
+          "duration" : 7162
+        }
+      }, {
+        "uid" : "6335c08e3c799022",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/338//#testresult/6335c08e3c799022",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646975770791,
+          "stop" : 1646975774942,
+          "duration" : 4151
+        }
+      }, {
+        "uid" : "66eda0d7a42bd048",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/337//#testresult/66eda0d7a42bd048",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646974143164,
+          "stop" : 1646974147587,
+          "duration" : 4423
+        }
+      }, {
+        "uid" : "bbc6a4cd43b5756",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/336//#testresult/bbc6a4cd43b5756",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646972662937,
+          "stop" : 1646972666617,
+          "duration" : 3680
+        }
+      }, {
+        "uid" : "2eea02298a7d57d1",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/335//#testresult/2eea02298a7d57d1",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646970027013,
+          "stop" : 1646970030740,
+          "duration" : 3727
+        }
+      }, {
+        "uid" : "e232d67abcbc41b7",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/334//#testresult/e232d67abcbc41b7",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646969116846,
+          "stop" : 1646969120903,
+          "duration" : 4057
+        }
+      }, {
+        "uid" : "3c26adde43a87a9b",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/333//#testresult/3c26adde43a87a9b",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646967530371,
+          "stop" : 1646967533733,
+          "duration" : 3362
+        }
+      }, {
+        "uid" : "29a3f04ba2672b45",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/332//#testresult/29a3f04ba2672b45",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646965854102,
+          "stop" : 1646965860661,
+          "duration" : 6559
+        }
+      }, {
+        "uid" : "238f28f4411ca530",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/331//#testresult/238f28f4411ca530",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646961220852,
+          "stop" : 1646961228150,
+          "duration" : 7298
+        }
+      }, {
+        "uid" : "9150da7c3a437fa9",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/330//#testresult/9150da7c3a437fa9",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646955548287,
+          "stop" : 1646955556566,
+          "duration" : 8279
+        }
+      }, {
+        "uid" : "1125f95396ad169b",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/329//#testresult/1125f95396ad169b",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646954295674,
+          "stop" : 1646954300970,
+          "duration" : 5296
+        }
+      }, {
+        "uid" : "b8e07ca00c3876b6",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/328//#testresult/b8e07ca00c3876b6",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646951973932,
+          "stop" : 1646951981659,
+          "duration" : 7727
+        }
+      }, {
+        "uid" : "a161e10a918c85c2",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/327//#testresult/a161e10a918c85c2",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 200 expected [200] but found [404]",
+        "time" : {
+          "start" : 1646950689546,
+          "stop" : 1646950693976,
+          "duration" : 4430
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a07d6cdd8369189.json",
+  "parameterValues" : [ ]
+}
