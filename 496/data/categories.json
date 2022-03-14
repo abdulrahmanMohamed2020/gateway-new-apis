@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The status code should be 200 expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifyDeleteUserResponseStatusCode",
+        "uid" : "a42bbfd9aff06e25",
+        "parentUid" : "b498ff4f1655ea4a3f336af887c6f50e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647278342737,
+          "stop" : 1647278346826,
+          "duration" : 4089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b498ff4f1655ea4a3f336af887c6f50e"
+    }, {
+      "name" : "The status code should be 202 as Accepted expected [202] but found [500]",
+      "children" : [ {
+        "name" : "verifySchemaOfResponseWhenUpdatingUser",
+        "uid" : "ffd591167e6ea826",
+        "parentUid" : "bd03a73fb57a8aa905187c7f29302f9a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647278352044,
+          "stop" : 1647278355092,
+          "duration" : 3048
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd03a73fb57a8aa905187c7f29302f9a"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
