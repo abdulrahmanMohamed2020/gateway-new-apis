@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The status code should be 200 expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifyDeleteUserResponseStatusCode",
+        "uid" : "26f90742aaa887d5",
+        "parentUid" : "b498ff4f1655ea4a3f336af887c6f50e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647555490335,
+          "stop" : 1647555493215,
+          "duration" : 2880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySchemaOfResponseWhenGettingUser",
+        "uid" : "6c961b8c427bff9c",
+        "parentUid" : "b498ff4f1655ea4a3f336af887c6f50e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647555495167,
+          "stop" : 1647555495999,
+          "duration" : 832
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b498ff4f1655ea4a3f336af887c6f50e"
+    }, {
+      "name" : "The status code should be 202 as Accepted expected [202] but found [404]",
+      "children" : [ {
+        "name" : "verifySchemaOfResponseWhenUpdatingUser",
+        "uid" : "3ef32775faf20d78",
+        "parentUid" : "7f8b71709797e928cb0401a1d635b6ee",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647555496001,
+          "stop" : 1647555497823,
+          "duration" : 1822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f8b71709797e928cb0401a1d635b6ee"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Unrecognized field \"message\" (class models.users.User), not marked as ignorable (3 known properties: \"user\", \"jwtRefreshToken\", \"jwtAccessToken\"])\n at [Source: (String)\"{\"message\":\"Invalid user ID or does not exist\"}\"; line: 1, column: 13] (through reference chain: models.users.User[\"message\"])",
+      "children" : [ {
+        "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenIGetUser",
+        "uid" : "29e186089e41d52a",
+        "parentUid" : "39bd80e99b1645716c941a9fe703d3f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647555498461,
+          "stop" : 1647555499276,
+          "duration" : 815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "39bd80e99b1645716c941a9fe703d3f0"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
