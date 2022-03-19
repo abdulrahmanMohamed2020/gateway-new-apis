@@ -1,0 +1,284 @@
+{
+  "uid" : "66d5396251f684cb",
+  "name" : "verifySchemaOfResponseWhenUpdatingUser",
+  "fullName" : "tests.users.UsersTest.verifySchemaOfResponseWhenUpdatingUser",
+  "historyId" : "2d57d722585e139bb289cebb29b8b9f2",
+  "time" : {
+    "start" : 1647721071717,
+    "stop" : 1647721073248,
+    "duration" : 1531
+  },
+  "status" : "failed",
+  "statusMessage" : "The status code should be 201 created expected [201] but found [500]",
+  "statusTrace" : "java.lang.AssertionError: The status code should be 201 created expected [201] but found [500]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:907)\n\tat tests.users.UsersTest.createUser(UsersTest.java:104)\n\tat tests.users.UsersTest.verifySchemaOfResponseWhenUpdatingUser(UsersTest.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:764)\n\tat org.testng.TestRunner.run(TestRunner.java:585)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1140)\n\tat org.testng.TestNG.runSuites(TestNG.java:1069)\n\tat org.testng.TestNG.run(TestNG.java:1037)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\n",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "The status code should be 201 created expected [201] but found [500]",
+    "statusTrace" : "java.lang.AssertionError: The status code should be 201 created expected [201] but found [500]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:907)\n\tat tests.users.UsersTest.createUser(UsersTest.java:104)\n\tat tests.users.UsersTest.verifySchemaOfResponseWhenUpdatingUser(UsersTest.java:84)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:764)\n\tat org.testng.TestRunner.run(TestRunner.java:585)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1140)\n\tat org.testng.TestNG.runSuites(TestNG.java:1069)\n\tat org.testng.TestNG.run(TestNG.java:1037)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\n",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "df8bee3bc97a3b9c",
+      "name" : "Request",
+      "source" : "df8bee3bc97a3b9c.html",
+      "type" : "text/html",
+      "size" : 1027
+    }, {
+      "uid" : "e2f62ae4410ffe64",
+      "name" : "HTTP/1.1 500 Internal Server Error",
+      "source" : "e2f62ae4410ffe64.html",
+      "type" : "text/html",
+      "size" : 455
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySchemaOfResponseWhenUpdatingUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az47-982"
+  }, {
+    "name" : "thread",
+    "value" : "2183@fv-az47-982.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 713,
+        "unknown" : 0,
+        "total" : 723
+      },
+      "items" : [ {
+        "uid" : "49d636899f1b9476",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/722//#testresult/49d636899f1b9476",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647718670966,
+          "stop" : 1647718672492,
+          "duration" : 1526
+        }
+      }, {
+        "uid" : "fcbb756714699374",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/721//#testresult/fcbb756714699374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647717247314,
+          "stop" : 1647717249321,
+          "duration" : 2007
+        }
+      }, {
+        "uid" : "ae2ff80e47de4aa3",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/720//#testresult/ae2ff80e47de4aa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647715421007,
+          "stop" : 1647715424318,
+          "duration" : 3311
+        }
+      }, {
+        "uid" : "d9be493fc99c098d",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/719//#testresult/d9be493fc99c098d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647714051159,
+          "stop" : 1647714054462,
+          "duration" : 3303
+        }
+      }, {
+        "uid" : "167f225e49533e2a",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/718//#testresult/167f225e49533e2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647711505910,
+          "stop" : 1647711510604,
+          "duration" : 4694
+        }
+      }, {
+        "uid" : "d4af3f1e55cf6348",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/717//#testresult/d4af3f1e55cf6348",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647710223238,
+          "stop" : 1647710226190,
+          "duration" : 2952
+        }
+      }, {
+        "uid" : "96ac21343520b3e2",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/716//#testresult/96ac21343520b3e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647708817735,
+          "stop" : 1647708820019,
+          "duration" : 2284
+        }
+      }, {
+        "uid" : "e510da428e5bfa03",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/715//#testresult/e510da428e5bfa03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647707077262,
+          "stop" : 1647707079345,
+          "duration" : 2083
+        }
+      }, {
+        "uid" : "7f46b359208fa05f",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/714//#testresult/7f46b359208fa05f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647704493591,
+          "stop" : 1647704496220,
+          "duration" : 2629
+        }
+      }, {
+        "uid" : "e2b6218f6550ad5b",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/713//#testresult/e2b6218f6550ad5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647703120379,
+          "stop" : 1647703123989,
+          "duration" : 3610
+        }
+      }, {
+        "uid" : "1147ae9bb92a293f",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/712//#testresult/1147ae9bb92a293f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647700770016,
+          "stop" : 1647700774471,
+          "duration" : 4455
+        }
+      }, {
+        "uid" : "803b71f643af8784",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/711//#testresult/803b71f643af8784",
+        "status" : "failed",
+        "statusDetails" : "The status code should be 202 as Accepted expected [202] but found [503]",
+        "time" : {
+          "start" : 1647699466466,
+          "stop" : 1647699468818,
+          "duration" : 2352
+        }
+      }, {
+        "uid" : "de8099b7ed5393e2",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/710//#testresult/de8099b7ed5393e2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647697126126,
+          "stop" : 1647697128722,
+          "duration" : 2596
+        }
+      }, {
+        "uid" : "655a3a4ea4b17149",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/709//#testresult/655a3a4ea4b17149",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647696322089,
+          "stop" : 1647696326637,
+          "duration" : 4548
+        }
+      }, {
+        "uid" : "214cc4d4a8a09083",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/708//#testresult/214cc4d4a8a09083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647694729065,
+          "stop" : 1647694732378,
+          "duration" : 3313
+        }
+      }, {
+        "uid" : "da4d27429f04ae55",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/707//#testresult/da4d27429f04ae55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647692945358,
+          "stop" : 1647692949287,
+          "duration" : 3929
+        }
+      }, {
+        "uid" : "ad48029b9afbb018",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/706//#testresult/ad48029b9afbb018",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647689818810,
+          "stop" : 1647689820637,
+          "duration" : 1827
+        }
+      }, {
+        "uid" : "68f089b05587db6d",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/705//#testresult/68f089b05587db6d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647688515075,
+          "stop" : 1647688517671,
+          "duration" : 2596
+        }
+      }, {
+        "uid" : "5932d1fd76a85633",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/704//#testresult/5932d1fd76a85633",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647686433944,
+          "stop" : 1647686436520,
+          "duration" : 2576
+        }
+      }, {
+        "uid" : "cad4d2f823b78d1a",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/703//#testresult/cad4d2f823b78d1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647685165692,
+          "stop" : 1647685170246,
+          "duration" : 4554
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "66d5396251f684cb.json",
+  "parameterValues" : [ ]
+}
