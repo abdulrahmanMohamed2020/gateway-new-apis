@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The status code should be 200 expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifyDeleteUserResponseStatusCode",
+        "uid" : "131197fea3da1fed",
+        "parentUid" : "b498ff4f1655ea4a3f336af887c6f50e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647699451814,
+          "stop" : 1647699456734,
+          "duration" : 4920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b498ff4f1655ea4a3f336af887c6f50e"
+    }, {
+      "name" : "The status code should be 202 as Accepted expected [202] but found [503]",
+      "children" : [ {
+        "name" : "verifySchemaOfResponseWhenUpdatingUser",
+        "uid" : "803b71f643af8784",
+        "parentUid" : "d88379153079327a1b4a8e9033c2924a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647699466466,
+          "stop" : 1647699468818,
+          "duration" : 2352
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d88379153079327a1b4a8e9033c2924a"
+    }, {
+      "name" : "The status code should be 201 created expected [201] but found [503]",
+      "children" : [ {
+        "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenICreateUser",
+        "uid" : "f0f6fcf4561a7f90",
+        "parentUid" : "2344f1991512cb83a46d5f1fc0920388",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647699468821,
+          "stop" : 1647699468924,
+          "duration" : 103
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenIGetUser",
+        "uid" : "4953574e6e1dfdd3",
+        "parentUid" : "2344f1991512cb83a46d5f1fc0920388",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647699468929,
+          "stop" : 1647699469033,
+          "duration" : 104
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2344f1991512cb83a46d5f1fc0920388"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
