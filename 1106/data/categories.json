@@ -1,0 +1,104 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The status code should be 201 created expected [201] but found [500]",
+      "children" : [ {
+        "name" : "verifyDeleteUserResponseStatusCode",
+        "uid" : "f7fbf1d131697612",
+        "parentUid" : "684b4d7d612a6821e3b5177ea4ebd0d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648489276163,
+          "stop" : 1648489280465,
+          "duration" : 4302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyLoginResponseSchema",
+        "uid" : "5ec50b21130e6066",
+        "parentUid" : "684b4d7d612a6821e3b5177ea4ebd0d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648489280521,
+          "stop" : 1648489281085,
+          "duration" : 564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySchemaOfResponseWhenCreatingValidUser",
+        "uid" : "5a52ea9084a49d20",
+        "parentUid" : "684b4d7d612a6821e3b5177ea4ebd0d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648489281088,
+          "stop" : 1648489281530,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySchemaOfResponseWhenGettingUser",
+        "uid" : "612c94888440a042",
+        "parentUid" : "684b4d7d612a6821e3b5177ea4ebd0d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648489281533,
+          "stop" : 1648489281966,
+          "duration" : 433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySchemaOfResponseWhenUpdatingUser",
+        "uid" : "64bcd181200db2e6",
+        "parentUid" : "684b4d7d612a6821e3b5177ea4ebd0d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648489281968,
+          "stop" : 1648489282482,
+          "duration" : 514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenICreateUser",
+        "uid" : "16b7b66cfa59aa39",
+        "parentUid" : "684b4d7d612a6821e3b5177ea4ebd0d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648489282484,
+          "stop" : 1648489282932,
+          "duration" : 448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenIGetUser",
+        "uid" : "209acc7da6581a4b",
+        "parentUid" : "684b4d7d612a6821e3b5177ea4ebd0d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648489282934,
+          "stop" : 1648489283396,
+          "duration" : 462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "684b4d7d612a6821e3b5177ea4ebd0d0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
