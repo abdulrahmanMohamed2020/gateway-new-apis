@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The status code should be 200 expected [200] but found [404]",
+      "children" : [ {
+        "name" : "verifyDeleteUserResponseStatusCode",
+        "uid" : "29e3004ed3fa6695",
+        "parentUid" : "b498ff4f1655ea4a3f336af887c6f50e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649006266447,
+          "stop" : 1649006270040,
+          "duration" : 3593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b498ff4f1655ea4a3f336af887c6f50e"
+    }, {
+      "name" : "The status code should be 201 created expected [201] but found [409]",
+      "children" : [ {
+        "name" : "verifySchemaOfResponseWhenCreatingValidUser",
+        "uid" : "1ebb1294a9baa754",
+        "parentUid" : "8e9b82eb03a76321451a27b85b1803ec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649006272912,
+          "stop" : 1649006273082,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e9b82eb03a76321451a27b85b1803ec"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
