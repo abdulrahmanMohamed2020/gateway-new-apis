@@ -1,0 +1,125 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "tests.contacts.ContactsTest",
+        "children" : [ {
+          "name" : "testTest",
+          "uid" : "f246c588383d8327",
+          "parentUid" : "a296e5fcea1378f7e29d1b541140121b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649137082689,
+            "stop" : 1649137082693,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a296e5fcea1378f7e29d1b541140121b"
+      }, {
+        "name" : "tests.users.UsersTest",
+        "children" : [ {
+          "name" : "verifyDeleteUserResponseStatusCode",
+          "uid" : "79a376f1d36c48c3",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "failed",
+          "time" : {
+            "start" : 1649137082699,
+            "stop" : 1649137084885,
+            "duration" : 2186
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyLoginResponseSchema",
+          "uid" : "8ca5af4e8cdb9fe9",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649137084888,
+            "stop" : 1649137087866,
+            "duration" : 2978
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySchemaOfResponseWhenCreatingValidUser",
+          "uid" : "a81c570398f07cfc",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649137087868,
+            "stop" : 1649137089396,
+            "duration" : 1528
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySchemaOfResponseWhenGettingUser",
+          "uid" : "9077d6bcbd0bd7c1",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649137089398,
+            "stop" : 1649137091888,
+            "duration" : 2490
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifySchemaOfResponseWhenUpdatingUser",
+          "uid" : "b87fb8cc428d81fd",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649137091892,
+            "stop" : 1649137094375,
+            "duration" : 2483
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenICreateUser",
+          "uid" : "a3a86d6dacf6562d",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649137094377,
+            "stop" : 1649137095508,
+            "duration" : 1131
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyThatTheUserDataIsReturnedSuccessfullyAndNotEmptyWhenIGetUser",
+          "uid" : "d0e23a7dfbeb0983",
+          "parentUid" : "73ce7fc73688fc36f7b4c83198dfe5ef",
+          "status" : "passed",
+          "time" : {
+            "start" : 1649137095512,
+            "stop" : 1649137097282,
+            "duration" : 1770
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "73ce7fc73688fc36f7b4c83198dfe5ef"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  } ],
+  "name" : "suites"
+}
