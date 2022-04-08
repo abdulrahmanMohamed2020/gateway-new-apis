@@ -1,0 +1,287 @@
+{
+  "uid" : "205862be025cbd32",
+  "name" : "verifySchemaOfResponseWhenCreatingValidUser",
+  "fullName" : "tests.users.UsersTest.verifySchemaOfResponseWhenCreatingValidUser",
+  "historyId" : "2d44f30ff013631f8e3b500eb5e9b94d",
+  "time" : {
+    "start" : 1649413281438,
+    "stop" : 1649413282987,
+    "duration" : 1549
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ce829792858e771",
+      "name" : "Request",
+      "source" : "4ce829792858e771.html",
+      "type" : "text/html",
+      "size" : 1027
+    }, {
+      "uid" : "fbbd822659859496",
+      "name" : "HTTP/1.1 201 Created",
+      "source" : "fbbd822659859496.html",
+      "type" : "text/html",
+      "size" : 3120
+    }, {
+      "uid" : "7beb636b766afd3a",
+      "name" : "Request",
+      "source" : "7beb636b766afd3a.html",
+      "type" : "text/html",
+      "size" : 1319
+    }, {
+      "uid" : "f377686a1aef1a1",
+      "name" : "HTTP/1.1 404 Not Found",
+      "source" : "f377686a1aef1a1.html",
+      "type" : "text/html",
+      "size" : 429
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifySchemaOfResponseWhenCreatingValidUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "tests.users.UsersTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az131-281"
+  }, {
+    "name" : "thread",
+    "value" : "2308@fv-az131-281.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1554,
+        "unknown" : 0,
+        "total" : 1559
+      },
+      "items" : [ {
+        "uid" : "affd2bc8c84d94e8",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1558//#testresult/affd2bc8c84d94e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649410840073,
+          "stop" : 1649410841114,
+          "duration" : 1041
+        }
+      }, {
+        "uid" : "9913686d93d5b3fd",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1557//#testresult/9913686d93d5b3fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649409510155,
+          "stop" : 1649409511716,
+          "duration" : 1561
+        }
+      }, {
+        "uid" : "30d8a02bc2b6e917",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1556//#testresult/30d8a02bc2b6e917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649407433811,
+          "stop" : 1649407435314,
+          "duration" : 1503
+        }
+      }, {
+        "uid" : "a89d71df3ce63734",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1555//#testresult/a89d71df3ce63734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649406128044,
+          "stop" : 1649406129091,
+          "duration" : 1047
+        }
+      }, {
+        "uid" : "92ffca08a7c294b3",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1554//#testresult/92ffca08a7c294b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649403564797,
+          "stop" : 1649403566340,
+          "duration" : 1543
+        }
+      }, {
+        "uid" : "f901db7bdbaaa0a5",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1553//#testresult/f901db7bdbaaa0a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649402324864,
+          "stop" : 1649402326432,
+          "duration" : 1568
+        }
+      }, {
+        "uid" : "e4c76dc05438ca49",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1552//#testresult/e4c76dc05438ca49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649400481669,
+          "stop" : 1649400483478,
+          "duration" : 1809
+        }
+      }, {
+        "uid" : "c77a03055fa425d9",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1551//#testresult/c77a03055fa425d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649398968991,
+          "stop" : 1649398970022,
+          "duration" : 1031
+        }
+      }, {
+        "uid" : "a92c182a0ea868ac",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1550//#testresult/a92c182a0ea868ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649396298536,
+          "stop" : 1649396301328,
+          "duration" : 2792
+        }
+      }, {
+        "uid" : "903fb1012e7d6cfc",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1549//#testresult/903fb1012e7d6cfc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649395045400,
+          "stop" : 1649395046967,
+          "duration" : 1567
+        }
+      }, {
+        "uid" : "56e2fc5c9de7e75c",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1548//#testresult/56e2fc5c9de7e75c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649393359764,
+          "stop" : 1649393363831,
+          "duration" : 4067
+        }
+      }, {
+        "uid" : "53d1c96c5436f4b",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1547//#testresult/53d1c96c5436f4b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649391806633,
+          "stop" : 1649391808313,
+          "duration" : 1680
+        }
+      }, {
+        "uid" : "264838dddeea4744",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1546//#testresult/264838dddeea4744",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649388945805,
+          "stop" : 1649388946834,
+          "duration" : 1029
+        }
+      }, {
+        "uid" : "b1e28837624d421b",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1545//#testresult/b1e28837624d421b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649386363849,
+          "stop" : 1649386364951,
+          "duration" : 1102
+        }
+      }, {
+        "uid" : "454ba1ccaf183993",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1544//#testresult/454ba1ccaf183993",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649380939486,
+          "stop" : 1649380940551,
+          "duration" : 1065
+        }
+      }, {
+        "uid" : "163cafbb9d92b128",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1543//#testresult/163cafbb9d92b128",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649374812911,
+          "stop" : 1649374813883,
+          "duration" : 972
+        }
+      }, {
+        "uid" : "5c7d6e71b1bcaf46",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1542//#testresult/5c7d6e71b1bcaf46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649373519753,
+          "stop" : 1649373520774,
+          "duration" : 1021
+        }
+      }, {
+        "uid" : "95e5d01ce16c6f0b",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1541//#testresult/95e5d01ce16c6f0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649371249554,
+          "stop" : 1649371251266,
+          "duration" : 1712
+        }
+      }, {
+        "uid" : "735623439cadc890",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1540//#testresult/735623439cadc890",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649369900540,
+          "stop" : 1649369901562,
+          "duration" : 1022
+        }
+      }, {
+        "uid" : "73ec6e4d6f4c728d",
+        "reportUrl" : "https://abdulrahmanMohamed2020.github.io/gateway-new-apis/1539//#testresult/73ec6e4d6f4c728d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649367562726,
+          "stop" : 1649367564449,
+          "duration" : 1723
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "205862be025cbd32.json",
+  "parameterValues" : [ ]
+}
