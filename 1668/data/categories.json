@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "The status code should be 201 created expected [201] but found [503]",
+      "children" : [ {
+        "name" : "verifyDeleteUserResponseStatusCode",
+        "uid" : "8604c0973f449ff3",
+        "parentUid" : "2344f1991512cb83a46d5f1fc0920388",
+        "status" : "failed",
+        "time" : {
+          "start" : 1649630423575,
+          "stop" : 1649630430720,
+          "duration" : 7145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2344f1991512cb83a46d5f1fc0920388"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
